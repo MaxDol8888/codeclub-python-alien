@@ -19,7 +19,7 @@ import random # We need use random numbers
 import pygame # We are making a game. pygame draws us a window and makes it easy to
    # show sprites.
 from pygame.locals import *  # And we need to get more bits of pygame too.
-from aliens_dataloader import * # Finally some handy bits of code of our own,
+from codeclub import * # Finally some handy bits of code of our own,
    # which we've just put in a separate file to avoid cluttering this one.
 
 #######################################################################################
