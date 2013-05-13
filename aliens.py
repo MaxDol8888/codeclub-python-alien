@@ -252,10 +252,7 @@ pygame.display.flip()
 # load the sound effects
 boom_sound = load_sound('boom.wav')
 shoot_sound = load_sound('car_door.wav')
-if pygame.mixer:
-    music = os.path.join(main_dir, 'data', 'house_lo.wav')
-    pygame.mixer.music.load(music)
-    pygame.mixer.music.play(-1)
+start_music('house_lo.wav')
 
 # Create Some Starting Values
 frames_until_we_might_create_alien = FRAMES_BETWEEN_ALIEN_RELOAD_CHANCE
